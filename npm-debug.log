@@ -1,0 +1,437 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'flux-react-dispatcher' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 verbose install initial load of G:\Codes\react\package.json
+5 warn package.json react@1.0.0 No description
+6 warn package.json react@1.0.0 No repository field.
+7 warn package.json react@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\es6-promise\package.json
+9 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\gulp\package.json
+10 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\gulp-browserify\package.json
+11 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\gulp-concat\package.json
+12 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\jsx-loader\package.json
+13 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\react\package.json
+14 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\react-addons\package.json
+15 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\react-dispatcher\package.json
+16 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\react-dom\package.json
+17 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\reactify\package.json
+18 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\touch\package.json
+19 verbose installManyTop reading scoped package data from G:\Codes\react\node_modules\webpack\package.json
+20 info package.json react-dispatcher@0.2.1 license should be a valid SPDX license expression
+21 info package.json jsx-loader@0.13.2 license should be a valid SPDX license expression
+22 info package.json react-addons@0.9.1-deprecated No license field.
+23 verbose readDependencies loading dependencies from G:\Codes\react\package.json
+24 silly cache add args [ 'flux-react-dispatcher', null ]
+25 verbose cache add spec flux-react-dispatcher
+26 silly cache add parsed spec Result {
+26 silly cache add   raw: 'flux-react-dispatcher',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'flux-react-dispatcher',
+26 silly cache add   rawSpec: '',
+26 silly cache add   spec: 'latest',
+26 silly cache add   type: 'tag' }
+27 silly addNamed flux-react-dispatcher@latest
+28 verbose addNamed "latest" is being treated as a dist-tag for flux-react-dispatcher
+29 info addNameTag [ 'flux-react-dispatcher', 'latest' ]
+30 silly mapToRegistry name flux-react-dispatcher
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/flux-react-dispatcher
+34 verbose addNameTag registry:https://registry.npmjs.org/flux-react-dispatcher not in flight; fetching
+35 verbose request uri https://registry.npmjs.org/flux-react-dispatcher
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 1:25:09 AM
+38 verbose request id 3e94b55a9aae215d
+39 http request GET https://registry.npmjs.org/flux-react-dispatcher
+40 http 200 https://registry.npmjs.org/flux-react-dispatcher
+41 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+41 verbose headers   etag: '"4633JBIMLEXNKUL42UH17SH03"',
+41 verbose headers   'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '9425',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Fri, 18 Mar 2016 19:55:12 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   age: '0',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1458330911.103231,VS0,VE969',
+41 verbose headers   vary: 'Accept' }
+42 silly get cb [ 200,
+42 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+42 silly get     etag: '"4633JBIMLEXNKUL42UH17SH03"',
+42 silly get     'content-type': 'application/json',
+42 silly get     'cache-control': 'max-age=300',
+42 silly get     'content-length': '9425',
+42 silly get     'accept-ranges': 'bytes',
+42 silly get     date: 'Fri, 18 Mar 2016 19:55:12 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     age: '0',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-sin6924-SIN',
+42 silly get     'x-cache': 'MISS',
+42 silly get     'x-cache-hits': '0',
+42 silly get     'x-timer': 'S1458330911.103231,VS0,VE969',
+42 silly get     vary: 'Accept' } ]
+43 verbose get saving flux-react-dispatcher to C:\Users\Nileshwar\AppData\Roaming\npm-cache\registry.npmjs.org\flux-react-dispatcher\.cache.json
+44 silly addNameTag next cb for flux-react-dispatcher with tag latest
+45 silly addNamed flux-react-dispatcher@1.2.5
+46 verbose addNamed "1.2.5" is a plain semver version for flux-react-dispatcher
+47 silly mapToRegistry name flux-react-dispatcher
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/flux-react-dispatcher
+51 verbose addRemoteTarball https://registry.npmjs.org/flux-react-dispatcher/-/flux-react-dispatcher-1.2.5.tgz not in flight; adding
+52 verbose addRemoteTarball [ 'https://registry.npmjs.org/flux-react-dispatcher/-/flux-react-dispatcher-1.2.5.tgz',
+52 verbose addRemoteTarball   '61f8201fa00ca3aa545eae6479b0c9d8509ccf77' ]
+53 info retry fetch attempt 1 at 1:25:15 AM
+54 info attempt registry request try #1 at 1:25:15 AM
+55 http fetch GET https://registry.npmjs.org/flux-react-dispatcher/-/flux-react-dispatcher-1.2.5.tgz
+56 http fetch 200 https://registry.npmjs.org/flux-react-dispatcher/-/flux-react-dispatcher-1.2.5.tgz
+57 silly fetchAndShaCheck shasum 61f8201fa00ca3aa545eae6479b0c9d8509ccf77
+58 verbose addTmpTarball C:\Users\NILESH~1\AppData\Local\Temp\npm-4948-c7bcb1bd\registry.npmjs.org\flux-react-dispatcher\-\flux-react-dispatcher-1.2.5.tgz not in flight; adding
+59 verbose addTmpTarball already have metadata; skipping unpack for flux-react-dispatcher@1.2.5
+60 silly cache afterAdd flux-react-dispatcher@1.2.5
+61 verbose afterAdd C:\Users\Nileshwar\AppData\Roaming\npm-cache\flux-react-dispatcher\1.2.5\package\package.json not in flight; writing
+62 verbose afterAdd C:\Users\Nileshwar\AppData\Roaming\npm-cache\flux-react-dispatcher\1.2.5\package\package.json written
+63 silly install resolved [ { name: 'flux-react-dispatcher',
+63 silly install resolved     version: '1.2.5',
+63 silly install resolved     description: 'React dispatcher',
+63 silly install resolved     main: './app/main.js',
+63 silly install resolved     repository:
+63 silly install resolved      { type: 'git',
+63 silly install resolved        url: 'git+https://github.com/christianalfoni/flux-react-dispatcher.git' },
+63 silly install resolved     scripts: { test: './node_modules/karma/bin/karma start karma.conf.js' },
+63 silly install resolved     author: { name: 'Christian Alfoni' },
+63 silly install resolved     license: 'ISC',
+63 silly install resolved     devDependencies:
+63 silly install resolved      { browserify: '^5.9.3',
+63 silly install resolved        chai: '^1.9.1',
+63 silly install resolved        gulp: '^3.8.7',
+63 silly install resolved        'gulp-concat': '^2.3.4',
+63 silly install resolved        'gulp-if': '^1.2.4',
+63 silly install resolved        'gulp-livereload': '^2.1.0',
+63 silly install resolved        'gulp-notify': '^1.4.2',
+63 silly install resolved        'gulp-streamify': '0.0.5',
+63 silly install resolved        'gulp-uglify': '^0.3.1',
+63 silly install resolved        'gulp-util': '^3.0.0',
+63 silly install resolved        karma: '^0.12.21',
+63 silly install resolved        'karma-bro': '^0.6.2',
+63 silly install resolved        'karma-chrome-launcher': '^0.1.4',
+63 silly install resolved        'karma-firefox-launcher': '^0.1.3',
+63 silly install resolved        'karma-mocha': '^0.1.7',
+63 silly install resolved        'karma-phantomjs-launcher': '^0.1.4',
+63 silly install resolved        mocha: '^1.21.4',
+63 silly install resolved        react: '^0.11.1',
+63 silly install resolved        'react-tools': '^0.11.1',
+63 silly install resolved        reactify: '^0.14.0',
+63 silly install resolved        'vinyl-source-stream': '^0.1.1',
+63 silly install resolved        watchify: '^1.0.2' },
+63 silly install resolved     dependencies: { 'es6-promise': '^1.0.0' },
+63 silly install resolved     gitHead: '00b2c5458e9125c957c18d56b8c03444e8f44d15',
+63 silly install resolved     bugs: { url: 'https://github.com/christianalfoni/flux-react-dispatcher/issues' },
+63 silly install resolved     homepage: 'https://github.com/christianalfoni/flux-react-dispatcher#readme',
+63 silly install resolved     _id: 'flux-react-dispatcher@1.2.5',
+63 silly install resolved     _shasum: '61f8201fa00ca3aa545eae6479b0c9d8509ccf77',
+63 silly install resolved     _from: 'flux-react-dispatcher@latest',
+63 silly install resolved     _npmVersion: '3.3.12',
+63 silly install resolved     _nodeVersion: '5.2.0',
+63 silly install resolved     _npmUser: { name: 'christianalfoni', email: 'christianalfoni@gmail.com' },
+63 silly install resolved     dist:
+63 silly install resolved      { shasum: '61f8201fa00ca3aa545eae6479b0c9d8509ccf77',
+63 silly install resolved        tarball: 'http://registry.npmjs.org/flux-react-dispatcher/-/flux-react-dispatcher-1.2.5.tgz' },
+63 silly install resolved     maintainers: [ [Object] ],
+63 silly install resolved     directories: {},
+63 silly install resolved     _resolved: 'https://registry.npmjs.org/flux-react-dispatcher/-/flux-react-dispatcher-1.2.5.tgz' } ]
+64 info install flux-react-dispatcher@1.2.5 into G:\Codes\react
+65 info installOne flux-react-dispatcher@1.2.5
+66 verbose installOne of flux-react-dispatcher to G:\Codes\react not in flight; installing
+67 verbose lock using C:\Users\Nileshwar\AppData\Roaming\npm-cache\_locks\flux-react-dispatcher-794df3ede0f6537d.lock for G:\Codes\react\node_modules\flux-react-dispatcher
+68 silly install write writing flux-react-dispatcher 1.2.5 to G:\Codes\react\node_modules\flux-react-dispatcher
+69 verbose unbuild node_modules\flux-react-dispatcher
+70 silly gentlyRm G:\Codes\react\node_modules\flux-react-dispatcher is being purged from base G:\Codes\react
+71 verbose gentlyRm don't care about contents; nuking G:\Codes\react\node_modules\flux-react-dispatcher
+72 verbose tar unpack C:\Users\Nileshwar\AppData\Roaming\npm-cache\flux-react-dispatcher\1.2.5\package.tgz
+73 verbose tar unpacking to G:\Codes\react\node_modules\flux-react-dispatcher
+74 silly gentlyRm G:\Codes\react\node_modules\flux-react-dispatcher is being purged
+75 verbose gentlyRm don't care about contents; nuking G:\Codes\react\node_modules\flux-react-dispatcher
+76 silly gunzTarPerm modes [ '777', '666' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm modified mode [ 'package.json', 493, 511 ]
+79 silly gunzTarPerm extractEntry .npmignore
+80 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+81 silly gunzTarPerm extractEntry README.md
+82 silly gunzTarPerm modified mode [ 'README.md', 493, 511 ]
+83 silly gunzTarPerm extractEntry karma.conf.js
+84 silly gunzTarPerm modified mode [ 'karma.conf.js', 493, 511 ]
+85 silly gunzTarPerm extractEntry gulpfile.js
+86 silly gunzTarPerm modified mode [ 'gulpfile.js', 493, 511 ]
+87 silly gunzTarPerm extractEntry dist/ReactDispatcher.min.js
+88 silly gunzTarPerm modified mode [ 'dist/ReactDispatcher.min.js', 493, 511 ]
+89 silly gunzTarPerm extractEntry .travis.yml
+90 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+91 silly gunzTarPerm extractEntry dev/main.js
+92 silly gunzTarPerm modified mode [ 'dev/main.js', 493, 511 ]
+93 silly gunzTarPerm extractEntry dev/test.js
+94 silly gunzTarPerm modified mode [ 'dev/test.js', 493, 511 ]
+95 silly gunzTarPerm extractEntry app/compareArraysWithProp.js
+96 silly gunzTarPerm modified mode [ 'app/compareArraysWithProp.js', 420, 438 ]
+97 silly gunzTarPerm extractEntry app/isValidDependencyLayout.js
+98 silly gunzTarPerm modified mode [ 'app/isValidDependencyLayout.js', 420, 438 ]
+99 silly gunzTarPerm extractEntry app/main.js
+100 silly gunzTarPerm modified mode [ 'app/main.js', 493, 511 ]
+101 silly gunzTarPerm extractEntry app/permute.js
+102 silly gunzTarPerm modified mode [ 'app/permute.js', 420, 438 ]
+103 silly gunzTarPerm extractEntry test.html
+104 silly gunzTarPerm modified mode [ 'test.html', 493, 511 ]
+105 silly gunzTarPerm extractEntry tests/Dispatcher-test.js
+106 silly gunzTarPerm modified mode [ 'tests/Dispatcher-test.js', 493, 511 ]
+107 silly gunzTarPerm extractEntry utils/browserify.js
+108 silly gunzTarPerm modified mode [ 'utils/browserify.js', 493, 511 ]
+109 silly gunzTarPerm extractEntry utils/css.js
+110 silly gunzTarPerm modified mode [ 'utils/css.js', 493, 511 ]
+111 silly gunzTarPerm extractEntry utils/es5-shim.js
+112 silly gunzTarPerm modified mode [ 'utils/es5-shim.js', 493, 511 ]
+113 silly gunzTarPerm extractEntry utils/handleError.js
+114 silly gunzTarPerm modified mode [ 'utils/handleError.js', 493, 511 ]
+115 verbose write writing to G:\Codes\react\node_modules\flux-react-dispatcher\package.json
+116 info preinstall flux-react-dispatcher@1.2.5
+117 verbose readDependencies loading dependencies from G:\Codes\react\node_modules\flux-react-dispatcher\package.json
+118 silly prepareForInstallMany adding es6-promise@^1.0.0 from flux-react-dispatcher dependencies
+119 verbose readDependencies loading dependencies from G:\Codes\react\node_modules\flux-react-dispatcher\package.json
+120 silly cache add args [ 'es6-promise@^1.0.0', null ]
+121 verbose cache add spec es6-promise@^1.0.0
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'es6-promise@^1.0.0',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'es6-promise',
+122 silly cache add   rawSpec: '^1.0.0',
+122 silly cache add   spec: '>=1.0.0 <2.0.0',
+122 silly cache add   type: 'range' }
+123 silly addNamed es6-promise@>=1.0.0 <2.0.0
+124 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for es6-promise
+125 silly addNameRange { name: 'es6-promise', range: '>=1.0.0 <2.0.0', hasData: false }
+126 silly mapToRegistry name es6-promise
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry uri https://registry.npmjs.org/es6-promise
+130 verbose addNameRange registry:https://registry.npmjs.org/es6-promise not in flight; fetching
+131 verbose request uri https://registry.npmjs.org/es6-promise
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 1:25:23 AM
+134 verbose etag "4CKW4UJJQZA6IOEGX2PV3DSFX"
+135 http request GET https://registry.npmjs.org/es6-promise
+136 http 304 https://registry.npmjs.org/es6-promise
+137 verbose headers { date: 'Fri, 18 Mar 2016 19:55:22 GMT',
+137 verbose headers   via: '1.1 varnish',
+137 verbose headers   'cache-control': 'max-age=300',
+137 verbose headers   etag: '"4CKW4UJJQZA6IOEGX2PV3DSFX"',
+137 verbose headers   age: '36',
+137 verbose headers   connection: 'keep-alive',
+137 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+137 verbose headers   'x-cache': 'HIT',
+137 verbose headers   'x-cache-hits': '1',
+137 verbose headers   'x-timer': 'S1458330922.671426,VS0,VE0',
+137 verbose headers   vary: 'Accept' }
+138 silly get cb [ 304,
+138 silly get   { date: 'Fri, 18 Mar 2016 19:55:22 GMT',
+138 silly get     via: '1.1 varnish',
+138 silly get     'cache-control': 'max-age=300',
+138 silly get     etag: '"4CKW4UJJQZA6IOEGX2PV3DSFX"',
+138 silly get     age: '36',
+138 silly get     connection: 'keep-alive',
+138 silly get     'x-served-by': 'cache-sin6925-SIN',
+138 silly get     'x-cache': 'HIT',
+138 silly get     'x-cache-hits': '1',
+138 silly get     'x-timer': 'S1458330922.671426,VS0,VE0',
+138 silly get     vary: 'Accept' } ]
+139 verbose etag https://registry.npmjs.org/es6-promise from cache
+140 verbose get saving es6-promise to C:\Users\Nileshwar\AppData\Roaming\npm-cache\registry.npmjs.org\es6-promise\.cache.json
+141 silly addNameRange number 2 { name: 'es6-promise', range: '>=1.0.0 <2.0.0', hasData: true }
+142 silly addNameRange versions [ 'es6-promise',
+142 silly addNameRange   [ '0.1.0',
+142 silly addNameRange     '0.1.1',
+142 silly addNameRange     '0.1.2',
+142 silly addNameRange     '1.0.0',
+142 silly addNameRange     '2.0.0',
+142 silly addNameRange     '2.0.1',
+142 silly addNameRange     '2.1.0',
+142 silly addNameRange     '2.1.1',
+142 silly addNameRange     '2.2.0',
+142 silly addNameRange     '2.3.0',
+142 silly addNameRange     '3.0.0',
+142 silly addNameRange     '3.0.1',
+142 silly addNameRange     '3.0.2',
+142 silly addNameRange     '3.1.2' ] ]
+143 silly addNamed es6-promise@1.0.0
+144 verbose addNamed "1.0.0" is a plain semver version for es6-promise
+145 silly mapToRegistry name es6-promise
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry uri https://registry.npmjs.org/es6-promise
+149 verbose addRemoteTarball https://registry.npmjs.org/es6-promise/-/es6-promise-1.0.0.tgz not in flight; adding
+150 verbose addRemoteTarball [ 'https://registry.npmjs.org/es6-promise/-/es6-promise-1.0.0.tgz',
+150 verbose addRemoteTarball   'f90d3629faa7c26166ae4df77c89bacdeb8dca7f' ]
+151 info retry fetch attempt 1 at 1:25:25 AM
+152 info attempt registry request try #1 at 1:25:25 AM
+153 http fetch GET https://registry.npmjs.org/es6-promise/-/es6-promise-1.0.0.tgz
+154 http fetch 200 https://registry.npmjs.org/es6-promise/-/es6-promise-1.0.0.tgz
+155 silly fetchAndShaCheck shasum f90d3629faa7c26166ae4df77c89bacdeb8dca7f
+156 verbose addTmpTarball C:\Users\NILESH~1\AppData\Local\Temp\npm-4948-c7bcb1bd\registry.npmjs.org\es6-promise\-\es6-promise-1.0.0.tgz not in flight; adding
+157 verbose addTmpTarball already have metadata; skipping unpack for es6-promise@1.0.0
+158 silly cache afterAdd es6-promise@1.0.0
+159 verbose afterAdd C:\Users\Nileshwar\AppData\Roaming\npm-cache\es6-promise\1.0.0\package\package.json not in flight; writing
+160 verbose afterAdd C:\Users\Nileshwar\AppData\Roaming\npm-cache\es6-promise\1.0.0\package\package.json written
+161 silly install resolved [ { name: 'es6-promise',
+161 silly install resolved     namespace: 'Promise',
+161 silly install resolved     version: '1.0.0',
+161 silly install resolved     description: 'A polyfill for ES6-style Promises, tracking rsvp',
+161 silly install resolved     main: 'dist/commonjs/main.js',
+161 silly install resolved     directories: { lib: 'lib' },
+161 silly install resolved     devDependencies:
+161 silly install resolved      { brfs: '0.0.8',
+161 silly install resolved        grunt: '~0.4.2',
+161 silly install resolved        'grunt-browserify': '~1.2.11',
+161 silly install resolved        'grunt-cli': '~0.1.11',
+161 silly install resolved        'grunt-contrib-clean': '~0.5.0',
+161 silly install resolved        'grunt-contrib-concat': '~0.3.0',
+161 silly install resolved        'grunt-contrib-connect': '~0.5.0',
+161 silly install resolved        'grunt-contrib-jshint': '~0.7.0',
+161 silly install resolved        'grunt-contrib-uglify': '~0.2.4',
+161 silly install resolved        'grunt-contrib-watch': '~0.5.3',
+161 silly install resolved        'grunt-es6-module-transpiler': '~0.6.0',
+161 silly install resolved        'grunt-mocha-phantomjs': '~0.3.1',
+161 silly install resolved        'grunt-mocha-test': '~0.5.0',
+161 silly install resolved        'grunt-s3': '~0.2.0-alpha.2',
+161 silly install resolved        jshint: '~0.9',
+161 silly install resolved        'load-grunt-config': '~0.5.0',
+161 silly install resolved        'load-grunt-tasks': '~0.2.0',
+161 silly install resolved        'mocha-phantomjs': '~3.1.6',
+161 silly install resolved        'promises-aplus-tests': 'git://github.com/stefanpenner/promises-tests.git',
+161 silly install resolved        'connect-redirection': '0.0.1',
+161 silly install resolved        'grunt-contrib-yuidoc': '~0.5.0' },
+161 silly install resolved     scripts:
+161 silly install resolved      { test: 'grunt test',
+161 silly install resolved        lint: 'jshint lib',
+161 silly install resolved        prepublish: 'grunt build' },
+161 silly install resolved     repository:
+161 silly install resolved      { type: 'git',
+161 silly install resolved        url: 'git://github.com/jakearchibald/ES6-Promises.git' },
+161 silly install resolved     bugs: { url: 'https://github.com/jakearchibald/ES6-Promises/issues' },
+161 silly install resolved     keywords: [ 'promises', 'futures', 'events' ],
+161 silly install resolved     author:
+161 silly install resolved      { name: 'Tilde, Inc.',
+161 silly install resolved        url: 'Conversion to ES6 API by Jake Archibald' },
+161 silly install resolved     license: 'MIT',
+161 silly install resolved     homepage: 'https://github.com/jakearchibald/ES6-Promises',
+161 silly install resolved     _id: 'es6-promise@1.0.0',
+161 silly install resolved     dist:
+161 silly install resolved      { shasum: 'f90d3629faa7c26166ae4df77c89bacdeb8dca7f',
+161 silly install resolved        tarball: 'http://registry.npmjs.org/es6-promise/-/es6-promise-1.0.0.tgz' },
+161 silly install resolved     _from: 'es6-promise@>=1.0.0 <2.0.0',
+161 silly install resolved     _npmVersion: '1.3.24',
+161 silly install resolved     _npmUser: { name: 'jaffathecake', email: 'jaffathecake@gmail.com' },
+161 silly install resolved     maintainers: [ [Object] ],
+161 silly install resolved     _shasum: 'f90d3629faa7c26166ae4df77c89bacdeb8dca7f',
+161 silly install resolved     _resolved: 'https://registry.npmjs.org/es6-promise/-/es6-promise-1.0.0.tgz' } ]
+162 info install es6-promise@1.0.0 into G:\Codes\react\node_modules\flux-react-dispatcher
+163 info installOne es6-promise@1.0.0
+164 verbose installOne of es6-promise to G:\Codes\react\node_modules\flux-react-dispatcher not in flight; installing
+165 verbose lock using C:\Users\Nileshwar\AppData\Roaming\npm-cache\_locks\es6-promise-e84d7574df132367.lock for G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise
+166 silly install write writing es6-promise 1.0.0 to G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise
+167 verbose unbuild node_modules\flux-react-dispatcher\node_modules\es6-promise
+168 silly gentlyRm G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise is being purged from base G:\Codes\react
+169 verbose gentlyRm don't care about contents; nuking G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise
+170 verbose tar unpack C:\Users\Nileshwar\AppData\Roaming\npm-cache\es6-promise\1.0.0\package.tgz
+171 verbose tar unpacking to G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise
+172 silly gentlyRm G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise is being purged
+173 verbose gentlyRm don't care about contents; nuking G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise
+174 silly gunzTarPerm modes [ '777', '666' ]
+175 silly gunzTarPerm extractEntry package.json
+176 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+177 silly gunzTarPerm extractEntry README.md
+178 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+179 silly gunzTarPerm extractEntry LICENSE
+180 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+181 silly gunzTarPerm extractEntry CHANGELOG.md
+182 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+183 silly gunzTarPerm extractEntry dist/promise-1.0.0.amd.js
+184 silly gunzTarPerm modified mode [ 'dist/promise-1.0.0.amd.js', 420, 438 ]
+185 silly gunzTarPerm extractEntry dist/promise-1.0.0.js
+186 silly gunzTarPerm modified mode [ 'dist/promise-1.0.0.js', 420, 438 ]
+187 silly gunzTarPerm extractEntry dist/promise-1.0.0.min.js
+188 silly gunzTarPerm modified mode [ 'dist/promise-1.0.0.min.js', 420, 438 ]
+189 silly gunzTarPerm extractEntry dist/commonjs/main.js
+190 silly gunzTarPerm modified mode [ 'dist/commonjs/main.js', 420, 438 ]
+191 silly gunzTarPerm extractEntry dist/commonjs/promise/all.js
+192 silly gunzTarPerm modified mode [ 'dist/commonjs/promise/all.js', 420, 438 ]
+193 silly gunzTarPerm extractEntry dist/commonjs/promise/asap.js
+194 silly gunzTarPerm modified mode [ 'dist/commonjs/promise/asap.js', 420, 438 ]
+195 silly gunzTarPerm extractEntry dist/commonjs/promise/config.js
+196 silly gunzTarPerm modified mode [ 'dist/commonjs/promise/config.js', 420, 438 ]
+197 silly gunzTarPerm extractEntry dist/commonjs/promise/polyfill.js
+198 silly gunzTarPerm modified mode [ 'dist/commonjs/promise/polyfill.js', 420, 438 ]
+199 silly gunzTarPerm extractEntry dist/commonjs/promise/promise.js
+200 silly gunzTarPerm modified mode [ 'dist/commonjs/promise/promise.js', 420, 438 ]
+201 silly gunzTarPerm extractEntry dist/commonjs/promise/race.js
+202 silly gunzTarPerm modified mode [ 'dist/commonjs/promise/race.js', 420, 438 ]
+203 silly gunzTarPerm extractEntry dist/commonjs/promise/reject.js
+204 silly gunzTarPerm modified mode [ 'dist/commonjs/promise/reject.js', 420, 438 ]
+205 silly gunzTarPerm extractEntry dist/commonjs/promise/resolve.js
+206 silly gunzTarPerm modified mode [ 'dist/commonjs/promise/resolve.js', 420, 438 ]
+207 silly gunzTarPerm extractEntry dist/commonjs/promise/utils.js
+208 silly gunzTarPerm modified mode [ 'dist/commonjs/promise/utils.js', 420, 438 ]
+209 verbose write writing to G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise\package.json
+210 info preinstall es6-promise@1.0.0
+211 verbose readDependencies loading dependencies from G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise\package.json
+212 verbose readDependencies loading dependencies from G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise\package.json
+213 silly install resolved []
+214 verbose about to build G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise
+215 info build G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise
+216 info linkStuff es6-promise@1.0.0
+217 silly linkStuff es6-promise@1.0.0 has G:\Codes\react\node_modules\flux-react-dispatcher\node_modules as its parent node_modules
+218 verbose linkBins es6-promise@1.0.0
+219 verbose linkMans es6-promise@1.0.0
+220 verbose rebuildBundles es6-promise@1.0.0
+221 info install es6-promise@1.0.0
+222 info postinstall es6-promise@1.0.0
+223 verbose unlock done using C:\Users\Nileshwar\AppData\Roaming\npm-cache\_locks\es6-promise-e84d7574df132367.lock for G:\Codes\react\node_modules\flux-react-dispatcher\node_modules\es6-promise
+224 verbose about to build G:\Codes\react\node_modules\flux-react-dispatcher
+225 info build G:\Codes\react\node_modules\flux-react-dispatcher
+226 info linkStuff flux-react-dispatcher@1.2.5
+227 silly linkStuff flux-react-dispatcher@1.2.5 has G:\Codes\react\node_modules as its parent node_modules
+228 verbose linkBins flux-react-dispatcher@1.2.5
+229 verbose linkMans flux-react-dispatcher@1.2.5
+230 verbose rebuildBundles flux-react-dispatcher@1.2.5
+231 verbose rebuildBundles [ 'es6-promise' ]
+232 info install flux-react-dispatcher@1.2.5
+233 info postinstall flux-react-dispatcher@1.2.5
+234 verbose unlock done using C:\Users\Nileshwar\AppData\Roaming\npm-cache\_locks\flux-react-dispatcher-794df3ede0f6537d.lock for G:\Codes\react\node_modules\flux-react-dispatcher
+235 verbose validateInstall loading G:\Codes\react\package.json for validation
+236 verbose stack Error: The package react@0.12.2 does not satisfy its siblings' peerDependencies requirements!
+236 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+236 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+236 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+236 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+236 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+236 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+236 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+236 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+236 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+236 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+237 verbose cwd G:\Codes\react
+238 error Windows_NT 6.1.7601
+239 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "flux-react-dispatcher"
+240 error node v4.2.4
+241 error npm  v2.14.12
+242 error code EPEERINVALID
+243 error peerinvalid The package react@0.12.2 does not satisfy its siblings' peerDependencies requirements!
+243 error peerinvalid Peer react-addons@0.9.1-deprecated wants react@>= 0.9.0
+243 error peerinvalid Peer react-dom@0.14.5 wants react@^0.14.5
+244 verbose exit [ 1, true ]
